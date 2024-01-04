@@ -1,0 +1,69 @@
+section {
+    margin-top: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(assets/img/nike.png);
+    height: 455px;
+}
+
+section {
+    background-size: cover;
+}
+
+.banner {
+    position: absolute;
+    display: grid;
+    justify-content: center;
+
+}
+
+.banner {
+    right: 350px;
+    top: 260px;
+    height: 100px;
+    width: 40%;
+}
+
+.banner__h2 {
+    font-size: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+
+
+}
+
+.banner__span {
+    text-align: center;
+    font-family: 'Assistant', sans-serif;
+
+}
+
+.banner__button {
+    width: 20%;
+    height: 40px;
+    padding: 10px;
+    display: grid;
+    justify-content: center;
+    margin: auto;
+}
+
+.banner__button {
+    border: 1px solid white;
+    background: rgba(5, 7, 12, 0.0);
+    cursor: pointer;
+
+}
+
+.banner__button a {
+    text-decoration: none;
+    margin: auto;
+    color: white;
+    font-size: 15px;
+
+}
+
+.banner__button:hover {
+    border: 2px solid;
+    color: #ffffff;
+}

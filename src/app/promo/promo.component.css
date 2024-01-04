@@ -1,0 +1,93 @@
+.mysteryBox {
+    margin-top: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 455px;
+    background-size: cover;
+    left: 0%;
+    right: 0%;
+    /*background-image: url(./assets/img/BANNER_2b.png);*/ /*Me causa mucho bug*/
+}
+
+.container-mysteryBox {
+    position: relative;
+    display: flex;
+    justify-content: right;
+    /* background-color: aqua; */
+    width: 48%;
+    height: 160px;
+    left: 45%;
+    top: 20%;
+}
+
+.container-mysteryBox-h2 {
+    width: 100%;
+    position: relative;
+    justify-content: right;
+    top: 9px;
+    right: 50px;
+
+}
+
+.container-mysteryBox-h2-span {
+    /* height: 100px; */
+    text-align: right;
+    font-family: 'Assistant', sans-serif;
+
+
+}
+
+
+.container-mysteryBox-h2-span span {
+    font-size: 38px;
+    color: #ffffff;
+    text-transform: uppercase;
+
+}
+
+.container_mysteryboX- {
+    position: relative;
+    display: flex;
+    justify-content: right;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    color: #ffffff;
+}
+
+.container_mysteryboX- span {
+    /* font-weight: lighter; */
+    font-family: 'Assistant', sans-serif;
+}
+
+.mysteryBox__ {
+    position: relative;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    justify-content: flex-end;
+
+
+
+}
+
+.mysteryBox-button {
+    width: 20%;
+    text-align: center;
+    font-family: 'Assistant', sans-serif;
+    letter-spacing: 1px;
+    border: none;
+    cursor: pointer;
+}
+
+.mysteryBox-button a {
+    text-decoration: none;
+    color: #000000;
+
+}
+
+.mysteryBox-button:hover {
+    background-color: #FFFFFF;
+    border: 1px solid white;
+    transition-delay: 1px;
+    ;
+}

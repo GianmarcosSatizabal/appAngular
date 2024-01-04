@@ -1,0 +1,42 @@
+
+
+nav {
+    position: static;
+    width: 100%;
+    background: #ffffff;
+    height: 35px;
+    font-family: 'Assistant', sans-serif;
+    font-size: 14px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 100%;
+
+}
+
+li {
+    color: #000000;
+    text-decoration: none;
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: #A9A9A9;
+}
+
+ul li a:hover {
+    color: #000000;
+    text-decoration: underline;
+
+}
